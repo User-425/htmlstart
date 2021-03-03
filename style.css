@@ -1,0 +1,104 @@
+body{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile {
+    width: 100px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color: pink;
+     text-decoration:none;
+     cursor:pointer;
+}
+
+.header1{
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-end;
+}
+
+
+nav ul
+{
+    list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: : 50px;
+  padding-right: 50px;
+}
+
+button{
+  display: block;
+}
+
+.content{
+  padding-top: 100px;
+  text-align: center;
+}
+
+.wrapper{
+padding-bottom: 100px;
+padding-top: 100px;
+text-align: center;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 25px;
+grid-row-gap: 0px;
+}
+
+.cont{
+  padding-top: 200px;
+  padding-left: 50px;
+}
+
+.subheader{
+  color: white;
+  padding: 0px 0px 280px 0px;
+  background-position: left;
+  background-clip: padding-box;
+  background-image: url(space.jpg);
+}
+
+.content2 {
+  padding: 100px 100px;
+  background-color: #EBEBEB;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.img{
+  width: 200px;
+}
+
+.testimoni{
+  padding: 100px;
+  text-align: center;
+}
+
+.a{
+  grid-column: col 5/ span;
+  grid-row: row;
+}
+
+.b{
+  grid-column: col 3/ span;
+  grid-row: row;
+}
+
+.c{
+  grid-column: col 1/ span;
+  grid-row: row;
+}
